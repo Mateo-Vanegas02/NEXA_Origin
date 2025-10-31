@@ -63,7 +63,7 @@ public class ControllerConductor {
         model.addAttribute("historialServicios", historialServicios);
         model.addAttribute("serviciosCalificados", serviciosCalificados);
 
-        return "/conductor/panel_conductor";
+        return "conductor/panel_conductor";
     }
 
     @PostMapping("/aceptar-servicio/{servicioId}")
