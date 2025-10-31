@@ -45,7 +45,7 @@ public class ControllerPasajero {
         Pasajero pasajero = (Pasajero) usuario;
         model.addAttribute("pasajero", pasajero);
 
-        return "/pasajero/panel_pasajero";
+        return "pasajero/panel_pasajero";
     }
 
     @PostMapping("/solicitar-viaje")
